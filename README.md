@@ -1,6 +1,4 @@
 # ExcelEntityBatchEditor
-<<<<<<< HEAD
-A dotNet console application that enables batch editing of database entities using data from an Excel file.
 =======
 A dotNet console application that enables batch editing of database entities using data from an Excel file
 
