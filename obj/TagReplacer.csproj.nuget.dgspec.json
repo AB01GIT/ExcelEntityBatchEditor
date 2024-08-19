@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "H:\\C #\\BuckUp\\6. SRT STORE\\sanginrah read excel\\TagReplacer\\TagReplacer.csproj": {}
+  },
+  "projects": {
+    "H:\\C #\\BuckUp\\6. SRT STORE\\sanginrah read excel\\TagReplacer\\TagReplacer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\C #\\BuckUp\\6. SRT STORE\\sanginrah read excel\\TagReplacer\\TagReplacer.csproj",
+        "projectName": "TagReplacer",
+        "projectPath": "H:\\C #\\BuckUp\\6. SRT STORE\\sanginrah read excel\\TagReplacer\\TagReplacer.csproj",
+        "packagesPath": "C:\\Users\\Abolfazl\\.nuget\\packages\\",
+        "outputPath": "H:\\C #\\BuckUp\\6. SRT STORE\\sanginrah read excel\\TagReplacer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Abolfazl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "H:\\Test\\Microservice\\ItemStore\\packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
